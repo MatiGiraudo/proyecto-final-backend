@@ -1,0 +1,9 @@
+export const corsConfig = { // Configuración personalizada para CORS
+  origin: process.env.ORIGIN || "http://localhost:3000",
+  allowedHeaders: ["Content-Type", "Authorization"],
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  exposedHeaders: ["Content-Length"],
+  credentials: true,
+  maxAge: 600,
+  optionsSuccessStatus: 200,
+};
