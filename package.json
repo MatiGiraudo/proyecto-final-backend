@@ -1,15 +1,26 @@
 {
-  "name": "proyecto-final",
+  "name": "proyecto-final-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "API RESTful de gestión de productos con autenticación JWT y Firebase Firestore",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "firebase",
+    "jwt",
+    "authentication"
+  ],
+  "author": "Matías Giraudo",
   "license": "ISC",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatiGiraudo/proyecto-final-backend"
+  },
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
