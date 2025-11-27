@@ -4,8 +4,8 @@ import { cleanUser } from "../models/user.model.js"; // Importar el modelo de us
 const usersDB = [ // Simulación de base de datos en memoria
   {
     user_id: "1",
-    email: "admin@admin.com",
-    password: "password123",
+    email: "test@gmail.com",
+    password: "123456",
     name: "Admin",
     role: "admin",
   },
