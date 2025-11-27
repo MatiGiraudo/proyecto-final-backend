@@ -164,8 +164,8 @@ Para obtener un token, primero debes hacer login con credenciales válidas.
 
 ```json
 {
-  "email": "admin@admin.com",
-  "password": "password123"
+  "email": "test@gmail.com",
+  "password": "123456"
 }
 ```
 
