@@ -25,6 +25,6 @@ app.use((req, res, next) => { // Middleware para manejar rutas no encontradas
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server corriendo en puerto ${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server corriendo en puerto ${PORT}`);
+// });
