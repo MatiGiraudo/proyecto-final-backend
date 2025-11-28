@@ -25,6 +25,12 @@ app.use((req, res, next) => { // Middleware para manejar rutas no encontradas
   });
 });
 
-// app.listen(PORT, () => {
-//   console.log(`Server corriendo en puerto ${PORT}`);
-// });
+// Solo ejecutar listen en desarrollo local
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`Server corriendo en puerto ${PORT}`);
+  });
+}
+
+// Exportar para Vercel
+export default app;
